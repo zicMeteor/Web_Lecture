@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html >
     <head>
-        <header>
-            <h1>나의 웹 프로필</h1>
-            <p>HTML 기본 태그를 활용하여 만든 웹페이지입니다.</p>
-        </header>
-        <hr>
-        <nav>
-            <a href="#소개">소개</a> |
-            <a href="#관심 분야">관심 분야</a> |
-            <a href="#학습 계획">학습 계획</a> |
-            <a href ="#문의하기">문의하기</a>
-        </nav>
-        <hr>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+
     </head>
 
     <body>
+        <header class="head">
+            <h1>나의 웹 프로필</h1>
+            <p>HTML 기본 태그를 활용하여 만든 웹페이지입니다.</p>
+        </header>
+
+        <hr>
+            <nav class="menu">
+                <a href="#소개">소개</a> |
+                <a href="#관심 분야">관심 분야</a> |
+                <a href="#학습 계획">학습 계획</a> |
+                <a href ="#문의하기">문의하기</a>
+            </nav>
+        <hr>
+
         <main>
-            <h2>1.자기소개</h1>
-            <section id="intro">
+            <h2 class="head_intro">1.자기소개</h1>
+            <section id="intro" class="intro">
                 <h3>안녕하세요!</h5>
                     <aricle>
                          <p> 저는 웹 프로그래밍을 공부하고 있습니다.<br>
@@ -29,8 +36,8 @@
                     </aricle>
             </section>
 
-            <h2>2.관심분야</h2>
-            <section id="interest">
+            <h2 class="head_interest">2.관심분야</h2>
+            <section id="interest" class="interest">
                 <article>
                     <h3>관심있는기술</h3>
                     <ul>
@@ -50,8 +57,8 @@
                 </article>
             </section>
 
-            <h2>4. 학습계획</h2>
-            <section id="schedule">
+            <h2 class="head_schedule">4. 학습계획</h2>
+            <section id="schedule" class="schedule">
                 <table border="1">
                     <thead>
                         <th >주차</th>
@@ -78,23 +85,24 @@
                 </table>
             </section>
 
-            <h2>5. 문의하기</h2>
-            <section id="contact">
+            <h2 class="head_contact">5. 문의하기</h2>
+            <section id="contact" class="contact">
                 <form>
                             <tr>
                                 <td><label for="name">이름</label></td><br>
-                                <td><input id="name" type="text"></td><br>
+                                <td><input id="name" type="text" placeholder="이름을 입력하셍
+                                    "></td><br>
                             </tr>
                             <br>
                             <tr>
                                 <td><label for="password">비밀번호</label></td><br>
-                                <td><input id="password" type="password"></td><br>
+                                <td><input id="password" type="password" placeholder="비밀번호를 입력하세요"></td><br>
                             </tr>
                             <br>
 
                             <tr>
                                 <td><label for="email">이메일</label></td><br>
-                                <td><input id="email" type="email"></td><br>
+                                <td><input id="email" type="email" placeholder ="이메일를 입력하세요"></td><br>
                             </tr>
                             <br>
 
@@ -106,7 +114,7 @@
 
                             <tr>
                                 <td><label for="grade">학년</label></td><br>
-                                <td><input id="grade" type="text"></td><br>
+                                <td><input id="grade" type="text" placeholder="학년을 입력하세요"></td><br>
                             </tr>
                             <br>
 
@@ -128,8 +136,9 @@
                 </form>
             </section>
 
+
             <hr>
-            <h3>보조 정보 영역</h3>
+            <h3 class="abs">보조 정보 영역</h3>
             <p>asdasdsadsadasdasd</p>
             <aside>
                 <h5>보조 정보 영역</h5>
@@ -142,7 +151,7 @@
 
         </main>
 
-        <footer>
+        <footer class="footer">
             <p>웹 프로그래밍 수준</p>
             <select>
                 <option>초급</option>

@@ -1,0 +1,87 @@
+.head {
+    padding: 20px;
+    text-align: center;
+    background-color:blue;
+    color: white;
+}
+
+.menu {
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+main {
+    background-color: beige;
+    padding: 20px;
+}
+
+.intro, .interest, .schedule, .contact {
+    padding: 20px;
+    margin: 20px 0;
+    border: 5px solid gray;
+}
+
+.intro p, .interest li, .schedule td {
+    line-height: 1.5;
+}
+
+.head_intro, .head_interest, .head_schedule, .head_contact {
+    padding: 10px;
+    background-color:blue;
+    color: white;
+    text-align: left;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+}
+
+.intro {
+    background-color:aliceblue;
+}
+
+.interest {
+    background-color:azure;
+}
+
+.schedule {
+    background-color:azure;
+}
+
+.schedule table {
+    width: 100%;
+}
+
+.schedule th, .schedule td {
+    text-align: center;
+}
+
+.contact {
+
+    background-color:azure;
+
+    input[type="text"]{
+        background-color: blanchedalmond;
+    }
+
+    input[type="password"]{
+        background-color: beige;
+    }
+
+    
+    input[type="email"]{
+        background-color: bisque;
+    }
+}
+
+.abs {
+    background-color: blueviolet;
+}
+
+.footer {
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+}
