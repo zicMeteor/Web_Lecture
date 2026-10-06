@@ -1,0 +1,37 @@
+.head {
+    overflow: hidden;
+    border: 0px;
+    float: left;
+    
+}
+.menu {
+    overflow: hidden;
+    padding: 10px;
+    margin: 0 4px;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.main{
+    float: left;
+    width: 500px;
+    padding: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    float: right;
+    width: 100px;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    /* text-align:; */
+    border-top: 1px solid black;
+}

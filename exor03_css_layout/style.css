@@ -1,0 +1,16 @@
+.conrainer_01 {
+    overflow: hidden;
+
+}
+
+.item_01 {
+    float: left;
+    padding: 100px;
+    margin: 0 3px;
+    border: 1px solid aqua;
+}
+
+.margin_02{
+    margin: 0 auto;
+    width: 500px;
+}
