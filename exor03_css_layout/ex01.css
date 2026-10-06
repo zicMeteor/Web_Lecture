@@ -1,37 +1,51 @@
-.head {
-    overflow: hidden;
-    border: 0px;
-    float: left;
-    
+body {
+  width: 800px;
+  margin: 20px auto;
 }
+
+.header {
+  overflow: hidden;
+  border-bottom: 2px solid black;
+}
+
+.header h2 {
+  float: left;
+}
+
 .menu {
-    overflow: hidden;
-    padding: 10px;
-    margin: 0 4px;
+  float: right;
+}
+
+.item {
+  float: left;
+  padding: 10px;
+  margin: 5px;
 }
 
 .container {
-    overflow: hidden;
+  overflow: hidden;
+  margin-top: 20px;
 }
 
-.main{
-    float: left;
-    width: 500px;
-    padding: 5px;
-    border: 1px solid black;
-    box-sizing: border-box;
+.main {
+  float: left;
+  width: 65%;
+  padding: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
-.sidebar{
-    float: right;
-    width: 100px;
-    padding: 40px;
-    border: 1px solid black;
+.sidebar {
+  float: right;
+  width: 32%;
+  padding: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
 .footer {
-    margin-top: 20px;
-    padding: 20px;
-    /* text-align:; */
-    border-top: 1px solid black;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid black;
 }
