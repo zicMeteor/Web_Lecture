@@ -1,0 +1,86 @@
+.header {
+    overflow: hidden;
+    text-align: center;
+    background-color:blue;
+    color: white;
+}
+
+h3{
+    color: red;
+}
+
+.menu {
+    overflow: hidden;
+    background:red;
+}
+
+.item{
+    float: left;
+    width: 20%;
+    padding: 14px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.PROFLE-box{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.PROFILE{
+    
+    border: 1px solid white;
+    background-color: bisque;
+    float: left;
+    width: 22%;
+    height: 400px;
+    padding: 16px;
+    box-sizing: border-box;
+
+}
+.PROJECT{
+    
+    border: 1px solid white;
+    float: left;
+    width: 55%;
+    height: 400px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.SKILL{
+
+    border: 1px solid white;
+    background-color: bisque;
+    float: left;
+    width: 22%;
+    height: 400px;
+    padding: 16px;
+    box-sizing: border-box;
+
+}
+.box1 {
+    color: red;
+    border: 1px solid black;
+    background-color: bisque;
+    margin: 10px;
+
+}
+
+.box2 {
+    color: red;
+    border: 1px solid black;
+    background-color: bisque;
+    margin: 10px;
+}
+
+
+.footer {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid black;
+  background-color: brown;
+}
