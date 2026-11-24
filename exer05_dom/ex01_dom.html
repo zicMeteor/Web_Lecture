@@ -13,21 +13,17 @@
 
             let item1 = document.getElementsByClassName('item')
             for (let i=0; i <item1.length; i++){
-
-                let item = item1[i];
-                item.style.color = 'red';
+                item1[i].style.color = 'red';
             }
 
             let messages = document.getElementsByName('message');
             for (let i = 0; i < messages.length; i++) {
-                let message = messages[i]
-                message.style.backgroundColor = 'yellow';
+                messages[i].style.backgroundColor = 'yellow';
             }
 
             let anys = document.querySelectorAll('p');
             for (let i = 0; i < anys.length; i++) {
-                let any = anys[i]
-                any.style.fontWeight = 'bold';
+                anys[i].style.fontWeight = 'bold';
             }
 
 

@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/exer01_html_basic/04_tag_youtube.html"
+    "livePreview.defaultPreviewPath": "/exer01_html_basic/04_tag_youtube.html",
+    "liveServer.settings.port": 5501
 }
